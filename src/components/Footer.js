@@ -16,7 +16,7 @@ class Footer extends Component {
 
     return (
       <footer>
-        <div className="container">
+        {/* <div className="container">
           <div className="row">
             <div className="col social-links">{networks}</div>
             <div className="col">
@@ -52,7 +52,7 @@ class Footer extends Component {
                   id={window.$secondaryLanguageIconId}
                 ></span>
               </div>
-            </div>
+            </div> */}
             <div className="col">
               <div className="copyright py-4 text-center">
                 <div className="container">
