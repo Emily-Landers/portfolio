@@ -1,3 +1,3 @@
-# Modify this portfolio
+# Emily Landers Portfolio
 
-Make it your own! 
+- https://emily-landers-portfolio.netlify.app/

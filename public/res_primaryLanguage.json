@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Emily Landers. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "I'm Emily Landers. I'm a software developer with a background in retail sales currently working with React, JavaScript, CSS, and HTML",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -42,7 +42,7 @@
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/Emily-Landers",
         "technologies": [
           {
             "class": "devicon-react-original",
