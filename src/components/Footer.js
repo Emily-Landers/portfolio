@@ -16,11 +16,11 @@ class Footer extends Component {
 
     return (
       <footer>
-        {/* <div className="container">
+        <div className="container">
           <div className="row">
             <div className="col social-links">{networks}</div>
             <div className="col">
-              <div 
+              {/* <div 
                 onClick={() =>
                   this.props.applyPickedLanguage(
                     window.$primaryLanguage,
@@ -62,6 +62,7 @@ class Footer extends Component {
                       ? this.props.sharedBasicInfo.name
                       : "???"}
                   </small>
+                  </div>
                 </div>
               </div>
             </div>
