@@ -41,13 +41,13 @@ class App extends Component {
   //     .setAttribute("filter", "brightness(40%)");
   // }
 
-  // componentDidMount = () => {
-  //   this.loadSharedData();
-  //   this.applyPickedLanguage(
-  //     window.$primaryLanguage,
-  //     window.$secondaryLanguageIconId
-  //   );
-  // }
+  componentDidMount = () => {
+    this.loadSharedData();
+    // this.applyPickedLanguage(
+    //   window.$primaryLanguage,
+    //   window.$secondaryLanguageIconId
+    // );
+  }
 
   loadResumeFromPath = (path) => {
     $.ajax({
@@ -98,7 +98,7 @@ class App extends Component {
         </Switch>
         <Footer 
           sharedBasicInfo={this.state.sharedData.basic_info}
-          applyPickedLanguage={this.applyPickedLanguage} 
+          // applyPickedLanguage={this.applyPickedLanguage} 
         />  
       </Router>
     );
